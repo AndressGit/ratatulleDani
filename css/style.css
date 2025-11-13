@@ -1,0 +1,54 @@
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    padding: 2rem;
+    background: #f7f7fb;
+    color: #222;
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#miBoton {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #667;
+    background: linear-gradient(180deg,#fff,#e6e9f2);
+    cursor: pointer;
+    transition: transform .08s ease, box-shadow .08s ease;
+}
+
+#miBoton:active {
+    transform: translateY(1px);
+}
+
+#status {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #e0e0e8;
+    color: #333;
+    min-height: 2rem;
+    display: inline-block;
+    transition: background-color .15s ease, color .15s ease;
+}
+
+/* Estilo para el recuadro de texto añadido */
+#miTexto {
+    width: 100%;
+    max-width: 420px;
+    margin-top: 1rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #e0e0e8;
+    background: #fff;
+    font-family: inherit;
+    color: #222;
+    resize: vertical;
+    min-height: 80px;
+    box-sizing: border-box;
+}
